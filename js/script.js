@@ -7,7 +7,8 @@ var argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  
+  var computerMove, playerMove, randomNumber;
 
   
   function getMoveName(argMoveId) {
@@ -49,8 +50,6 @@ function buttonClicked(argButtonName) {
   computerMove = getMoveName(randomNumber);
   console.log('ruch komputera to: ' + computerMove);
   displayResult(playerMove, computerMove);
-  Step JavaScript
-  Run JavaScript
 }
 
 
