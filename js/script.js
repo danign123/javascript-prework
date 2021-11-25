@@ -1,8 +1,4 @@
-
-
-
-var argButtonName, buttonPaper, buttonRock, buttonScissors;
-
+let argButtonName;
 
 function buttonClicked(argButtonName) {
   clearMessages();
@@ -43,6 +39,7 @@ function buttonClicked(argButtonName) {
   }
   
   
+
   playerMove = argButtonName;
   console.log('ruch gracza to: ' + playerMove);
   randomNumber = Math.floor(Math.random() * 3 + 1);
