@@ -1,4 +1,4 @@
-let argButtonName;
+
 
 function buttonClicked(argButtonName) {
   clearMessages();
